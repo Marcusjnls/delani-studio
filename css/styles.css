@@ -8,18 +8,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.jumbotron{
-  background-colour
-}
-.container{
-  margin-left: 0px;
-  margin-right: 0px;
 
-}
 .main-heading{
   text-align: center;
   position: absolute;
-  top: 67.5%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
   color:white;
@@ -27,23 +20,44 @@
 
 .logo{
   position: absolute;
-  top: 50%;
+  top: 33%;
   left: 50%;
   transform: translate(-50%, -50%);
+  height: 60px;
+  width: 60px;
 }
 .slogan{
   text-align: center;
   position: absolute;
   transform: translate(-50%, -50%);
   color:white;
-  top: 85%;
+  top: 60%;
   left: 50%;
+  font-size: 10px;
 }
 .scroll-icon{
   text-align: center;
   position: absolute;
   transform: translate(-50%, -50%);
   color:white;
-  top: 120%;
+  top: 84%;
   left: 50%;
+  height: 25px;
+  width: 15px;
+}
+
+.panel-title{
+  font-weight: bold;
+}
+.panel{
+  text-align: center;
+}
+.services-background{
+  width: 100%;
+  height: 100%;
+}
+.white-text{
+  color:white;
+  text-align: center;
+  position: absolute;
 }
